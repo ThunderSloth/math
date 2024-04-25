@@ -1,0 +1,28 @@
+% Series sheet here
+%
+% comparison
+%
+\huge
+\begin{displaymath}
+	\ln{x} \ll x^p \ll b^x \ll x! \ll x^x
+\end{displaymath}
+\normalsize
+\SetTblrInner{rowsep=8pt}
+\centering
+\begin{tblr}{colspec = {|c|l|X[c,m]|X[c,m]|},}
+	\hline
+	\Large Series   & \Large$\displaystyle{\sum_{k=0}^{\infty}a_k}$            & \Large Converges                                                      & \Large Diverges                                          \\
+	\hline
+	Geometric       & $ \displaystyle\sum_{k=0}^{\infty}ar^k$                  & $\sum a_k \to \displaystyle\frac{a}{1-r} \Rightarrow |r|<1$           & $|r| \nless 1 $                                          \\
+	\hline[dotted]
+	Telescoping     & $ \displaystyle\sum_{k=0}^{\infty}\Big(a_k-a_{k+1}\Big)$ & $\sum a_k \to a_1 - \displaystyle\lim_{k \to \infty} a_k$             & \huge$\times$                                            \\
+	\hline[dotted]
+	p-series        & $ \displaystyle\sum_{k=0}^{\infty}\frac{1}{k^p}$         & $p > 1 $                                                              & $p \ngtr1$                                               \\
+	\hline[dotted]
+	Harmonic        & $ \displaystyle\sum_{k=0}^{\infty}\frac{1}{k}$           & \huge$\times$                                                         & \huge$\checkmark$                                        \\
+	\hline
+	Divergence Test & $\displaystyle\sum_{k=0}^{\infty}a_k$                    & $\displaystyle\lim_{k\to\infty}\left|a_k\right| = 0 \to$ inconclusive & $\displaystyle\lim_{k\to\infty}\left|a_k\right| \neq 0 $ \\
+	\hline[dotted]
+	Integral Test   & {$\square$ Continuous                                                                                                                                                                       \\$\square$ Positive\\$\square$ Decreasing }                                      &                                                                       &                                                          \\
+	\hline
+\end{tblr}

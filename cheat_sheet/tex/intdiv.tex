@@ -1,0 +1,31 @@
+\SetTblrInner{rowsep=8pt}
+\centering
+\begin{tblr}{vlines, colspec = {X[c,m]X[c,m]X[c,m]},
+	vline{2} = {1}{text=\clap{$\longleftrightarrow$}},
+	vline{3} = {1}{text=\clap{$\longleftrightarrow$}},
+	}
+	\hline
+	\Large $\displaystyle{\frac{\mathrm{d}}{\mathrm{d} x}} f(x)$ & \Large $f(x)$                      & \Large $\displaystyle{\int} f(x) \;\mathrm{d} x$                                            \\
+	\hline
+	$a$                                                          & $ax$                               & $\frac{a}{2}x^2$                                                                            \\
+	$\displaystyle{nx^{n-1}}$                                    & $x^n$                              & ${\frac{1}{n+1}x^{n+1}}$                                                                    \\
+	$a\cdot e^{ax}$                                              & $e^{ax}$                           & $\frac{1}{a}e^{ax}$                                                                         \\
+	$a^x\ln(a)$                                                  & $a^x$                              & $\frac{a^x}{\ln(a)}$                                                                        \\
+	$\displaystyle{\frac{1}{x}}$                                 & $\ln\big|x\big|$                   & $x\ln|x|-x$                                                                                 \\
+	$\displaystyle{\frac{1}{x\ln(a)}} $                          & $\log_a(x)$                        & $\log_a(x)-\displaystyle{\frac{x}{\ln(a)}} $                                                \\
+	\hline[dotted]
+	$\cos(x)$                                                    & $\sin(x)$                          & $-\cos(x)$                                                                                  \\
+	$-\sin(x)$                                                   & $\cos(x)$                          & $\sin(x)$                                                                                   \\
+	$\sec^2(x)$                                                  & $\tan(x)$                          & $-\ln\Big|\cos(x)\,\Big| = \ln\Big|\sec{x}\,\Big|$                                          \\
+	$-\csc(x)\cot(x)$                                            & $\csc(x)$                          & $\ln\Big|\csc(x) - \cot(x)\,\Big|$                                                          \\
+	$\sec(x)\tan(x)$                                             & $\sec(x)$                          & $\ln\Big|\sec(x) + \tan(x)\,\Big|$                                                          \\
+	$-\csc^2(x)$                                                 & $\cot(x)$                          & $\ln\Big|\sin(x)\,\Big| = -\ln\Big|\csc(x)\,\Big| $                                         \\
+	\hline[dotted]
+	$\displaystyle{\frac{1}{\sqrt{a^{2}-x^2}}}$                  & $\sin^{-1}\Big(\sfrac{x}{a}\Big )$ & $x\sin^{-1}(\sfrac{x}{a} ) + \sqrt{a^{2}-x^2}$                                              \\
+	$\displaystyle{-\frac{1}{\sqrt{a^{2}-x^2}}}$                 & $\cos^{-1}\Big(\sfrac{x}{a}\Big )$ & $x\cos^{-1}(\sfrac{x}{a} ) - \sqrt{a^{2}-x^2}$                                              \\
+	$\displaystyle{\frac{1}{a^{2}+x^2}}$                         & $\tan^{-1}\Big(\sfrac{x}{a}\Big )$ & $x\tan^{-1}(\sfrac{x}{a} ) - a\frac{1}{2}\ln\Big|x^2+a^{2}\Big|$                            \\
+	$\displaystyle{-\frac{a}{|x|\sqrt{x^2-a^{2}}}}$              & $\csc^{-1}\Big(\sfrac{x}{a}\Big )$ & $\displaystyle{x\csc^{-1}(\sfrac{x}{a} )+a\ln\Bigg|\frac{x+\sqrt{x^{2}-a^{2}}}{a}\,\Bigg|}$ \\
+	$\displaystyle{\frac{a}{|x|\sqrt{x^2-a^{2}}}}$               & $\sec^{-1}\Big(\sfrac{x}{a}\Big )$ & $\displaystyle{x\sec^{-1}(\sfrac{x}{a} )-a\ln\Bigg|\frac{x+\sqrt{x^{2}-a^{2}}}{a}\,\Bigg|}$ \\
+	$\displaystyle{-\frac{a}{x^2+a^{2}}}$                        & $\cot^{-1}\Big(\sfrac{x}{a}\Big )$ & $x \cot^{-1}\left(\sfrac{x}{a} \right)+a\frac{1}{2}\ln\Big|a^{2}+x^2\Big| $                 \\
+	\hline
+\end{tblr}
